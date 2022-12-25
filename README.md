@@ -1,8 +1,8 @@
+[![Actions Status](https://github.com/algins/ipgeobase/workflows/Ruby/badge.svg)](https://github.com/algins/ipgeobase/actions)
+
 # Ipgeobase
 
 IP geolocation. Provides information about IP address geolocation.
-
-[![Actions Status](https://github.com/algins/ipgeobase/workflows/Ruby/badge.svg)](https://github.com/algins/ipgeobase/actions)
 
 ## Installation
 
