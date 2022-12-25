@@ -1,8 +1,8 @@
 # Ipgeobase
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ipgeobase`. To experiment with that code, run `bin/console` for an interactive prompt.
+IP geolocation. Provides information about IP address geolocation.
 
-TODO: Delete this and the text above, and describe your gem
+[![Actions Status](https://github.com/algins/ipgeobase/workflows/Ruby/badge.svg)](https://github.com/algins/ipgeobase/actions)
 
 ## Installation
 
@@ -22,7 +22,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+ip_meta = Ipgeobase.lookup('24.48.0.1')
+ip_meta.city # => Montreal
+ip_meta.country # => Canada
+ip_meta.countryCode # => CA
+ip_meta.lat # => 45.6085
+ip_meta.lon # => -73.5493
+```
 
 ## Development
 
@@ -32,4 +39,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ipgeobase.
+Bug reports and pull requests are welcome on GitHub at https://github.com/algins/ipgeobase.
